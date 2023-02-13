@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./public/*.html"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'mobile': "url('./images/m_image-hero.jpg')",
+      }
+    },
   },
   plugins: [],
 }
