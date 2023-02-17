@@ -9,9 +9,9 @@
 </head>
 <body>
     <header class="bg-mobile bg-cover bg-no-repeat h-screen relative flex justify-center items-center text-primary-white">
-        <div class="hidden absolute top-0 md:flex justify-between w-full my-5 px-5 font-first text-2xl md:py-10 md:px-32">
+        <div class="absolute top-0 flex justify-between w-full my-5 px-5 font-first text-2xl md:py-10 md:px-32">
             <span class="md:w-1/2">loopstudios</span>
-            <span class="pt-2 cursor-pointer md:hidden">
+            <span class="pt-2 cursor-pointer md:hidden" id="burger">
                 <img src="./icons/icon-hamburger.svg" alt="icon-hamburger">
             </span>
             <ul class="hidden md:flex justify-between w-2/5">
@@ -22,10 +22,10 @@
                 <li><a href="#">Support</a></li>
             </ul>
         </div>
-        <div class="bg-primary-black h-full fixed z-10 w-full my-5 px-5 font-first text-2xl md:py-10 md:px-32">
+        <div class="hidden bg-primary-black h-full fixed z-10 w-full my-5 px-5 font-first text-2xl" id="menu">
             <div class="flex justify-between mb-40 pt-10">
                 <span class="md:w-1/2 text-4xl">loopstudios</span>
-                <span class="pt-2 cursor-pointer">
+                <span class="pt-2 cursor-pointer" id="close">
                     <img src="./icons/icon-close.svg" alt="icon-hamburger" class="w-8">
                 </span>
             </div>
@@ -147,5 +147,7 @@
             &copy; 2021 Loopstudios. All rights reserved.
         </p>
     </footer>
+
+    <script src="js/index.js"></script>
 </body>
 </html>
