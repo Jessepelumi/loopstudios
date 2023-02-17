@@ -13,7 +13,11 @@ module.exports = {
           'dark_gray': "hsl(0, 0%, 55%)",
           'very_dark_gray': "hsl(0, 0%, 41%)",
         }
-      }
+      },
+      fontFamily: {
+        'first': ["Alata"],
+        'second': ["Josefin Sans"],
+      },
     },
   },
   plugins: [],
