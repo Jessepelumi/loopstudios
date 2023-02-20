@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         'mobile': "url('./images/m_image-hero.jpg')",
+        'desktop': "url('./images/image-hero.jpg')",
       },
       colors: {
         primary: {
